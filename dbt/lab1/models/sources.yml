@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: lab1
+    schema: raw
+    tables:
+      - name: seattle_weather_data
+      - name: miami_weather_data

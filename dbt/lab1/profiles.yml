@@ -1,0 +1,14 @@
+lab1:
+  outputs:
+    dev:
+      account: jv15508.us-east-2.aws
+      database: LAB1
+      private_key_passphrase: sjsu
+      private_key_path: /opt/airflow/dbt/rsa_key.p8
+      role: ACCOUNTADMIN
+      schema: TRANSFORMED
+      threads: 1
+      type: snowflake
+      user: anurag.sanadi@sjsu.edu
+      warehouse: DATA226_WAREHOUSE
+  target: dev
